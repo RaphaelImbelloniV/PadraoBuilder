@@ -24,6 +24,7 @@ jobs:
               body: JSON.stringify({
                 summary: title,
                 description: description,
+                category: "General",  
                 project: {
                   id: parseInt(process.env.MANTISHUB_PROJECT_ID)
                 }
